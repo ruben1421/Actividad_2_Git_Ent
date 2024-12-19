@@ -6,11 +6,26 @@ import java.util.Scanner;
 public class proyecto_en_grupo {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		// TODO Auto-generated method stub
 <<<<<<< HEAD
 		
 		Random r = new Random();
 		Scanner s = new Scanner(System.in);
+=======
+		
+		int suma = 0;
+
+		for(int i = 0; i < matrix.length; i++){
+		for(int j = 0; j < matrix[i].length; j++){
+		suma += matrix[i][j];
+		}
+		}
+
+		System.out.println("Suma de todos los numeros en el matriz: " + suma);
+
+		s.close();
+>>>>>>> origin/Rama_MarcF.C
 
 		//Part 1
 		int matrix[][] = new int[5][5];
